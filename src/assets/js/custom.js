@@ -157,4 +157,4 @@ $(function() {
 
 });
 
-}
+}// cierre funcion init_plugins

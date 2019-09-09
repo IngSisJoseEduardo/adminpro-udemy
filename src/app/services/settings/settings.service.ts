@@ -19,7 +19,7 @@ export class SettingsService {
   guardarAjustes() {
     // guardando el tema en el local storage
     localStorage.setItem('ajustes', JSON.stringify( this.ajustes ) );
-    console.log('guardado en local storage');
+    // console.log('guardado en local storage');
   }
 
   cargarAjustes() {
@@ -27,9 +27,9 @@ export class SettingsService {
       // cargando de local storage
       this.ajustes = JSON.parse(localStorage.getItem('ajustes'));
       this.aplicarTema( this.ajustes.tema );
-      console.log('cagando de local storage');
+      // console.log('cagando de local storage');
     } else {
-      console.log('usando valores por defecto');
+      // console.log('usando valores por defecto');
       this.aplicarTema( this.ajustes.tema );
 
     }

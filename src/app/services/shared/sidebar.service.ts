@@ -15,6 +15,7 @@ export class SidebarService {
         { titulo: 'Gráficas', url: '/grafica1'}
       ]
     }
-  ]
+  ];
+
   constructor() { }
 }

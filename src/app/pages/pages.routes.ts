@@ -17,7 +17,6 @@ const PagesRoutes: Routes = [
       { path: 'account-settings', component: AccountSettingsComponent }
     ]
   }
-  // { path: '**', pathMatch: 'full', redirectTo: 'routePath' }
 ];
 
 export const PAGES_ROUTES = RouterModule.forChild(PagesRoutes);
